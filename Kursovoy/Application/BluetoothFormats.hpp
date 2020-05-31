@@ -1,10 +1,10 @@
 #pragma once
-#include "thread.hpp" //For definition of class Thread
-#include <array> //For std::array
-#include "susudefs.hpp" // for SusuString
+//#include "thread.hpp" //For definition of class Thread
+//#include <array> //For std::array
+//#include "susudefs.hpp" // for SusuString
 
-#include <iostream>
-#include <cstring> //For strlen
+//#include <iostream>
+//#include <cstring> //For strlen
 
 
 class BluetoothFormats 

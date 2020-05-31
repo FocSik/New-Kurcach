@@ -2,11 +2,11 @@
 #define VARIABLETASK_HPP 
 
 //For OsWrapper::Thread
-#include "thread.hpp" //For definition of class Thread
-#include <array> //For std::array
-#include "mailbox.hpp" //For definition of class MailBox
-#include "event.hpp" //For definition of class event
-#include "ADC.hpp" //For definition of class Adc
+//#include "thread.hpp" //For definition of class Thread
+//#include <array> //For std::array
+//#include "mailbox.hpp" //For definition of class MailBox
+//#include "event.hpp" //For definition of class event
+//#include "ADC.hpp" //For definition of class Adc
 #include "Vlaznost.hpp" //For definition of class Variale
 #include "Filter.hpp"//For definition of class Filter
 #include <iostream>
@@ -34,8 +34,8 @@ public:
     for( ; ;)
     {
         myADC::On(); //vkluchaen adc
-        myADC::Start();
-        myADC::GetCode();
+        //myADC::Start();
+        //myADC::GetCode();
         std::cout << "Code: " << myADC::GetCode() << std::endl; 
         myVlaznost.Calculation(myADC::GetCode());
         filter.Update(myVlaznost.GetValue());

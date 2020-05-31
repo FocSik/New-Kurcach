@@ -1,14 +1,14 @@
-"C:\Dima\IAR 40.2\arm\bin\armproc.dll" 
+"D:\IAR Systems\Embedded Workbench 8.3\arm\bin\armproc.dll" 
 
-"C:\Dima\IAR 40.2\arm\bin\armstlink2.dll" 
+"D:\IAR Systems\Embedded Workbench 8.3\arm\bin\armstlink2.dll" 
 
-"C:\Users\infor\Desktop\New-Kurcach\Kursovoy\Debug\Exe\iarproject.out" 
+"C:\Users\FocSik\Documents\GitHub\New-Kurcach\Kursovoy\Debug\Exe\iarproject.out" 
 
---plugin="C:\Dima\IAR 40.2\arm\bin\armbat.dll" 
+--plugin="D:\IAR Systems\Embedded Workbench 8.3\arm\bin\armbat.dll" 
 
---device_macro="C:\Dima\IAR 40.2\arm\config\debugger\ST\STM32F4xx.dmac" 
+--device_macro="D:\IAR Systems\Embedded Workbench 8.3\arm\config\debugger\ST\STM32F4xx.dmac" 
 
---flash_loader="C:\Dima\IAR 40.2\arm\config\flashloader\ST\FlashSTM32F411xE.board" 
+--flash_loader="D:\IAR Systems\Embedded Workbench 8.3\arm\config\flashloader\ST\FlashSTM32F411xE.board" 
 
 
 

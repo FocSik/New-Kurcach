@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Dima\IAR 40.2\common\bin\cspybat" -f "C:\Users\infor\Desktop\New-Kurcach\Kursovoy\settings\iarproject.Debug.general.xcl" --backend -f "C:\Users\infor\Desktop\New-Kurcach\Kursovoy\settings\iarproject.Debug.driver.xcl" 
+"D:\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\FocSik\Documents\GitHub\New-Kurcach\Kursovoy\settings\iarproject.Debug.general.xcl" --backend -f "C:\Users\FocSik\Documents\GitHub\New-Kurcach\Kursovoy\settings\iarproject.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Dima\IAR 40.2\common\bin\cspybat" -f "C:\Users\infor\Desktop\New-Kurcach\Kursovoy\settings\iarproject.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\infor\Desktop\New-Kurcach\Kursovoy\settings\iarproject.Debug.driver.xcl" 
+"D:\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\FocSik\Documents\GitHub\New-Kurcach\Kursovoy\settings\iarproject.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\FocSik\Documents\GitHub\New-Kurcach\Kursovoy\settings\iarproject.Debug.driver.xcl" 
 
 @echo off 
 :end

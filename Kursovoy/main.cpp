@@ -1,17 +1,17 @@
 #include "rtos.hpp" // for Rtos
-#include "event.hpp" // for Event
+//#include "event.hpp" // for Event
 #include "rccregisters.hpp" // for RCC
-#include "thread.hpp"
+//#include "thread.hpp"
 #include "ADC.hpp"
 #include "adc1registers.hpp"
 #include "VariableTask.hpp"
 #include "Vlaznost.hpp"
 #include "USART.hpp"
-#include "susudefs.hpp"
+//#include "susudefs.hpp"
 #include "Filter.hpp"
-#include <iostream>
-#include "usart2registers.hpp"
-#include <cmath>
+//#include <iostream>
+//#include "usart2registers.hpp"
+//#include <cmath>
 #include "gpioaregisters.hpp"
 #include "BluetoothTask.hpp"
 #include "BluetoothFormats.hpp"

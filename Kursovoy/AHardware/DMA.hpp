@@ -6,8 +6,7 @@
 template<class D>
 class DMA
 {
-public:
-
+  public:
   static void ChannelSet() //vibor canala, c kotoromu podkluchaemsya (S0 - stream 0, CHSEL::Value0 - chanell 0)
   {
     D::S0CR::CHSEL::Value0::Set(); 

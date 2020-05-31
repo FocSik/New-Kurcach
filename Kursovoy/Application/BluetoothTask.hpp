@@ -1,15 +1,15 @@
 #pragma once
 //For OsWrapper::Thread
-#include "thread.hpp" //For definition of class Thread
-#include <array> //For std::array
+//#include "thread.hpp" //For definition of class Thread
+//#include <array> //For std::array
 //#include "BluetoothFormat.hpp"
-#include "VariableTask.hpp"
+//#include "VariableTask.hpp"
 #include "BluetoothFormats.hpp"
-#include "susudefs.hpp" // for SusuString
-#include "Filter.hpp"
-#include "USART.hpp"
-#include <iostream>
-#include <cstring> //For strlen
+//#include "susudefs.hpp" // for SusuString
+//#include "Filter.hpp"
+//#include "USART.hpp"
+//#include <iostream>
+//#include <cstring> //For strlen
 
 using namespace::OsWrapper ;
 
@@ -42,12 +42,11 @@ class BluetoothTask : public OsWrapper::Thread<512>
 
     for( ; ;)
     {
-     filtervlaznost = myVariableTask.GetFilterValue();
-         Sleep(1000ms);
-     std::cout << "FilterVlaznost: " <<  myVariableTask.GetFilterValue() << std::endl;
-     char* rezault = bluetoothformat.Getbluetoothformat(filtervlaznost);
-     myUSART::SendData(rezault, strlen(rezault));
-     
+      filtervlaznost = myVariableTask.GetFilterValue();
+      Sleep(1000ms);
+      std::cout << "FilterVlaznost: " <<  myVariableTask.GetFilterValue() << std::endl;
+      char* rezault = bluetoothformat.Getbluetoothformat(filtervlaznost);
+      myUSART::SendData(rezault, strlen(rezault));
     }
   }
 };

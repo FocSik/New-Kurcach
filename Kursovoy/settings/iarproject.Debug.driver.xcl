@@ -6,7 +6,7 @@
 
 "-p" 
 
-"C:\Dima\IAR 40.2\arm\CONFIG\debugger\ST\STM32F411RE.ddf" 
+"D:\IAR Systems\Embedded Workbench 8.3\arm\CONFIG\debugger\ST\STM32F411RE.ddf" 
 
 "--semihosting" 
 
