@@ -23,8 +23,8 @@ class BluetoothTask : public OsWrapper::Thread<512>
   private:
 
   BluetoothFormats bluetoothformat;  
-  float filtervlaznost = 0.0f;
-  char* rezault;  
+  //float filtervlaznost = 0.0f;
+  //char* rezault;  
   
   public:
     
@@ -42,10 +42,10 @@ class BluetoothTask : public OsWrapper::Thread<512>
 
     for( ; ;)
     {
-      filtervlaznost = myVariableTask.GetFilterValue();
+      //filtervlaznost = myVariableTask.GetFilterValue();
       Sleep(1000ms);
       std::cout << "FilterVlaznost: " <<  myVariableTask.GetFilterValue() << std::endl;
-      char* rezault = bluetoothformat.Getbluetoothformat(filtervlaznost);
+      char* rezault = bluetoothformat.Getbluetoothformat(myVariableTask.GetFilterValue());
       myUSART::SendData(rezault, strlen(rezault));
     }
   }

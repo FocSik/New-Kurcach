@@ -13,7 +13,7 @@ public:
 
 char* Getbluetoothformat (float filtervlaznost)
   {
-    char str[40];
+    static char str[40];
     sprintf(str, "%s%.3f %s\n", "Vlaznost: ", filtervlaznost, " %");
     return (str);
   }
